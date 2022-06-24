@@ -1,0 +1,32 @@
+.img{
+    width:120px;
+    height: 120px;
+    border-radius: 80%;
+    flex: 0.5;
+}
+
+.content{
+    height: 1000px;
+    width:100%;
+    background-color:plum;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.container{
+    width: 600px;
+    min-height: fit-content;
+    background-color: #fff;
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+}
+.text{
+    flex: 0.5;
+}
